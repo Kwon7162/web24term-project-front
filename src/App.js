@@ -3,7 +3,7 @@ import './App.css'
 import Container from './Container.js'
 import axios from 'axios'
 
-const SERVER_URL = process.env.SERVER_URL
+const SERVER_URL = "https://web24termproject.onrender.com/api/players"
 
 const App = () => {
   const [players, setPlayers] = useState([])
