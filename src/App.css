@@ -92,6 +92,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
   overflow-wrap: break-word;
+  word-break: break-word;
   max-width: 100%; /* 부모 컨테이너에 맞추기 */
   box-sizing: border-box; /* 패딩 포함한 박스 크기 */
   }
