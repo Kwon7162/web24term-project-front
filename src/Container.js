@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { FaStar } from "react-icons/fa"
 
 const Container = (props) => {
     const [desExpanded, setDesExpanded] = useState(false)

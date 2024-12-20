@@ -3,14 +3,14 @@ import './App.css'
 import Container from './Container.js'
 import axios from 'axios'
 
-const SERVER_URL = 'http://localhost:8080/api/players'
+const server_url = process.env.SERVER_URL
 
 const App = () => {
   const [players, setPlayers] = useState([])
 
   const getPlayer = async () => {
     try {
-      const res = await axios.get(SERVER_URL)
+      const res = await axios.get(server_url)
       console.log(res)
 
       setPlayers(res.data)
